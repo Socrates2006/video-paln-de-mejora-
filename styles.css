@@ -79,8 +79,8 @@ input[type="checkbox"] {
 }
 
 #submit {
-    background-color: #66bb6a;
-    color: red;
+    background-color: #7d66bb;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 12px 20px;
     border-radius: 6px;
@@ -92,8 +92,10 @@ input[type="checkbox"] {
 
 #submit:hover {
     background-color: #66bb6a;
+
     transform: scale(1.05);
 }
+
 
 textarea {
     resize: vertical;
