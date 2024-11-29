@@ -57,7 +57,7 @@ select {
 
 input::placeholder,
 textarea::placeholder {
-    color: #81c784;
+    color: #f1f8e9;
 }
 
 input[type="radio"],
@@ -74,13 +74,13 @@ input[type="checkbox"] {
 .radio-group label {
     display: inline-block;
     margin-right: 15px;
-    color: #388e3c;
+    color: #66bb6a;
     font-weight: normal;
 }
 
 #submit {
     background-color: #66bb6a;
-    color: white;
+    color: red;
     border: none;
     padding: 12px 20px;
     border-radius: 6px;
@@ -91,7 +91,7 @@ input[type="checkbox"] {
 }
 
 #submit:hover {
-    background-color: #43a047;
+    background-color: #66bb6a;
     transform: scale(1.05);
 }
 
