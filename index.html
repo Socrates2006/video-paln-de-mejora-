@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Encuesta</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1 id="title">Encuesta de Satisfacción</h1>
+  
+  <p id="description">Por favor, completa esta breve encuesta para ayudarnos a mejorar nuestro servicio.</p>
+
+  <form id="survey-form">
+    <label id="name-label" for="name">Nombre: 
+      <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+    </label><br>
+
+    <label id="email-label" for="email">Correo electrónico: 
+      <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
+    </label><br>
+
+    <label id="number-label" for="number">Número de satisfacción (1-10): 
+      <input type="number" id="number" name="number" placeholder="Ingresa un número" min="1" max="10">
+    </label><br>
+
+    <label for="dropdown">Selecciona tu país: 
+      <select id="dropdown" name="dropdown">
+        <option value="mexico">México</option>
+        <option value="colombia">Colombia</option>
+        <option value="argentina">Argentina</option>
+      </select>
+    </label><br>
+
+    <p>¿Recomendarías nuestro servicio?</p>
+    <label><input type="radio" name="recommend" value="si"> Sí</label>
+    <label><input type="radio" name="recommend" value="no"> No</label><br>
+
+    <p>Selecciona tus intereses:</p>
+    <label><input type="checkbox" name="interests" value="tecnologia"> Tecnología</label>
+    <label><input type="checkbox" name="interests" value="deportes"> Deportes</label>
+    <label><input type="checkbox" name="interests" value="musica"> Música</label><br>
+
+    <label for="comments">Comentarios adicionales:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Escribe tus comentarios aquí"></textarea><br>
+
+    <input type="submit" id="submit" value="Enviar">
+  </form>
+
+</body>
+</html>
